@@ -1,1 +1,13 @@
-.AppFooter {}
+.AppFooter {
+  text-align: center;
+}
+
+.Socmed {
+  font-size: 2rem;
+  color: rgb(25, 25, 25);
+  margin: 0 0.5rem;
+}
+
+.Socmed:hover {
+  color: rgb(117, 141, 125);
+}

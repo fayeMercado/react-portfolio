@@ -6,7 +6,8 @@ const PassionTemplate = (props) => {
   return (
     <>
       <div className={styles.Passion}>
-        <img src={props.image} alt="" height="100px" />
+        <img src={props.image} alt="" height="200px" />
+        <h3>{props.title}</h3>
         <p>{props.description}</p>
       </div>
     </>

@@ -1,0 +1,47 @@
+.AppAbout {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 0 0 0;
+  border: 1px solid red;
+}
+
+.AboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutMe img {
+}
+
+.AboutMe h1 {
+  margin: 0;
+  font-family: "Lavishly Yours", cursive;
+  font-size: 3rem;
+  font-weight: normal;
+  color: rgb(117, 141, 125);
+}
+
+.AboutMe p {
+  font-size: 1.25rem;
+}
+
+.PassionContainer {
+  height: 50%;
+  display: flex;
+  padding: 0, 1rem;
+}
+
+.Passion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.Passion img {
+  border: 1px solid green;
+  margin-right: 2rem;
+}

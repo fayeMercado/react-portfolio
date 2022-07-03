@@ -1,1 +1,36 @@
-.AppHeader {}
+.AppHeader {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: calc(100% - 30rem);
+}
+
+.LogoContainer {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.Logo {
+  font-family: "Lavishly Yours", cursive;
+  font-size: 4rem;
+  color: rgb(117, 141, 125);
+  /* 165, 174, 168 */
+}
+
+.NavHeader {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  justify-self: end;
+}
+
+.NavButton {
+  margin: 1.5rem 2rem 0;
+  align-self: center;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.NavButton:hover {
+  color: rgb(117, 141, 125);
+}

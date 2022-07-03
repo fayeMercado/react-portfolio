@@ -5,12 +5,18 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import AppHeader from "./AppHeader/AppHeader";
+import AppAbout from "./AppAbout/AppAbout";
+import AppFooter from "./AppFooter/AppFooter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppHeader />
-    <App />
+    <div className="page-container">
+      <AppHeader />
+      <AppAbout />
+      <App />
+      <AppFooter />
+    </div>
   </React.StrictMode>
 );
 

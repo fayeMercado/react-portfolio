@@ -13,18 +13,18 @@ const AppHeader = () => (
     </div>
 
     <div className={styles.NavHeader}>
-      <a href="" className={styles.NavButton}>
-        ABOUT ME
-      </a>
-      <a href="" className={styles.NavButton}>
-        SERVICES
-      </a>
-      <a href="" className={styles.NavButton}>
-        PORTFOLIO
-      </a>
-      <a href="" className={styles.NavButton}>
-        CONTACT
-      </a>
+      <div className={styles.NavButton}>
+        <a href="">ABOUT ME</a>
+      </div>
+      <div className={styles.NavButton}>
+        <a href="">SERVICES</a>
+      </div>
+      <div className={styles.NavButton}>
+        <a href="">PORTFOLIO</a>
+      </div>
+      <div className={styles.NavButton}>
+        <a href="">CONTACT</a>
+      </div>
     </div>
   </div>
 );

@@ -28,12 +28,20 @@
 }
 
 .NavButton {
-  margin: 1.5rem 2rem 0;
+  margin-top: 1.5rem;
   align-self: center;
+}
+
+.NavButton a {
+  padding: 1rem 1.5rem 0.5rem;
+}
+
+.NavButton a {
   font-weight: 500;
   color: rgb(25, 25, 25);
 }
 
-.NavButton:hover {
+.NavButton a:hover {
   color: rgb(94, 114, 101);
+  border-bottom: 3px solid rgba(94, 114, 101, 1);
 }

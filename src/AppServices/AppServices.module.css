@@ -1,21 +1,10 @@
-.AppAbout {
+.AppServices {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 8rem 0 0 0;
   border-bottom: 2px solid rgb(228, 233, 228);
-}
-
-.AboutMe {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem 0;
-  background-color: rgb(228, 233, 228);
-}
-
-.AboutMe div {
-  padding: 0 3rem;
 }
 
 h1 {
@@ -23,42 +12,45 @@ h1 {
   color: rgb(94, 114, 101);
 }
 
-.Passion h3 {
+.Services h3 {
   font-size: 3rem;
   color: rgb(25, 25, 25);
 }
 
 h1,
-.Passion h3 {
+.Services h3 {
   margin: 0;
   font-family: "Lavishly Yours", cursive;
   font-weight: normal;
   text-align: center;
 }
 
-.AboutMe div p {
-  font-size: 1.25rem;
-}
-
-.PassionContainer {
-  height: 50%;
+.ServicesContainer {
   display: flex;
+  justify-content: center;
   padding: 0, 1rem;
+  background-color: rgb(228, 233, 228);
 }
 
-.PassionContainer p {
+.ServicesContainer p {
   padding: 0 2rem;
   text-align: center;
 }
 
-.Passion {
+.Services {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
 }
 
-.Passion img {
-  box-shadow: 0 0 5px 2px rgb(94, 114, 101);
+.Services div {
+  margin-top: 2rem;
+  padding: 3rem;
   border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.Services img {
+  height: 10rem;
 }

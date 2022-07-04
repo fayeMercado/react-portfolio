@@ -8,6 +8,7 @@ import AppHeader from "./AppHeader/AppHeader";
 import AppAbout from "./AppAbout/AppAbout";
 import AppFooter from "./AppFooter/AppFooter";
 import AppHome from "./AppHome/AppHome";
+import AppServices from "./AppServices/AppServices";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <AppHeader />
       <AppHome />
       <AppAbout />
+      <AppServices />
       <App />
       <AppFooter />
     </div>

@@ -50,6 +50,7 @@ h1,
   padding: 3rem;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px 2px rgb(94, 114, 101);
 }
 
 .Services img {

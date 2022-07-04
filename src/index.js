@@ -7,12 +7,14 @@ import reportWebVitals from "./reportWebVitals";
 import AppHeader from "./AppHeader/AppHeader";
 import AppAbout from "./AppAbout/AppAbout";
 import AppFooter from "./AppFooter/AppFooter";
+import AppHome from "./AppHome/AppHome";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div className="page-container">
       <AppHeader />
+      <AppHome />
       <AppAbout />
       <App />
       <AppFooter />

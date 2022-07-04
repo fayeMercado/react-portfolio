@@ -12,11 +12,10 @@ const AppAbout = () => (
     <div className={styles.AboutMe}>
       <img src={photo} alt="" width="225px" height="225px" />
       <div>
-        <h1>hello...</h1>
         <p>I'm Faye and I am a web developer.</p>
       </div>
     </div>
-    <h3>what I like...</h3>
+    <h1>what i like...</h1>
     <div className={styles.PassionContainer}>
       <PassionTemplate
         image={code}

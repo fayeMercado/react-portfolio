@@ -1,4 +1,5 @@
 .AppAbout {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 8rem 0 0 0;
@@ -18,21 +19,20 @@
 
 h1 {
   font-size: 5rem;
+  color: rgb(94, 114, 101);
 }
 
-h3,
 .Passion h3 {
   font-size: 3rem;
+  color: rgb(25, 25, 25);
 }
 
-h3,
 h1,
 .Passion h3 {
   margin: 0;
   font-family: "Lavishly Yours", cursive;
   font-weight: normal;
   text-align: center;
-  color: rgb(117, 141, 125);
 }
 
 .AboutMe div p {
@@ -59,6 +59,6 @@ h1,
 }
 
 .Passion img {
-  box-shadow: 0 0 5px 2px rgb(117, 141, 125);
+  box-shadow: 0 0 5px 2px rgb(94, 114, 101);
   border-radius: 50%;
 }

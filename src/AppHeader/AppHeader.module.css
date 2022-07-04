@@ -2,7 +2,11 @@
   display: flex;
   position: fixed;
   justify-content: space-between;
-  width: calc(100% - 30rem);
+  /* width: calc(100% - 30rem); */
+  width: 100%;
+  margin-left: -15rem;
+  padding: 0 15rem;
+  background-color: rgb(249, 249, 249);
 }
 
 .LogoContainer {
@@ -13,7 +17,7 @@
 .Logo {
   font-family: "Lavishly Yours", cursive;
   font-size: 4rem;
-  color: rgb(117, 141, 125);
+  color: rgb(94, 114, 101);
 }
 
 .NavHeader {
@@ -27,9 +31,9 @@
   margin: 1.5rem 2rem 0;
   align-self: center;
   font-weight: 500;
-  color: rgb(0, 0, 0);
+  color: rgb(25, 25, 25);
 }
 
 .NavButton:hover {
-  color: rgb(117, 141, 125);
+  color: rgb(94, 114, 101);
 }
